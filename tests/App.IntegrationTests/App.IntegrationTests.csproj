@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\App.Web.Mvc\App.Web.Mvc.csproj" />
+    <ProjectReference Include="..\..\src\App.Web.Mvc\App.Web.Mvc.csproj" />
   </ItemGroup>
   
   <Target Name="CopyDepsFiles" AfterTargets="Build" Condition="'$(TargetFramework)'!=''">
